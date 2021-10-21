@@ -1,54 +1,40 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
-# Convierte binario a decimal
+# Problema de las Series
+Modifica el programa que se encuentra en la carpeta `src` que se llama `exercise.py` 
 
-Modifica el programa que se encuentra en la carpeta `src` que se llama `exercise.py` y que contiene el siguiente código:
 
-```python
-def main():
-  #escribe tu código abajo de esta línea
 
-if __name__ == '__main__':
-    main()
+La salida del programa debe ser exactamente :
+```
+1 I Am Not an Animal Animation
+2 Chernobyl Drama
+3 Rick and Morty Animation
+4 Breaking Bad Drama
+5 Hunter x Hunter Animation
+6 Sherlock Crime
+7 Planet Earth II Documentary
+8 Peaky Blinders Crime
+9 Stranger Things Drama
+10 DEATH NOTE Animation
+11 Avatar: The Last Airbender Animation
+12 The Twilight Zone Drama
+13 The Wire Crime
+14 Gravity Falls Animation
+15 The Sopranos Drama
+16 Neon Genesis Evangelion Animation
+17 The Marvelous Mrs. Maisel Comedy
+18 Young Justice Animation
+19 Band of Brothers Drama
+20 Futurama Animation
+Animation 9 45.0%
+Drama 6 30.0%
+Crime 3 15.0%
+Documentary 1 5.0%
+Comedy 1 5.0%
+Total de series: 20
+Promedio: 8.38
 ```
 
-La línea `#escribe tu código abajo de esta línea` es un comentario, el programa la va a ignorar al ejecutarse.
-
-Diseña un programa que incluya la función binario_decimal que convierta números binarios (base 2)
-en números decimales (base 10).
-La función deberá recibir un string que contenga el número binario a convertir y
-regresar un número entero equivalente en base 10.
-Si el string recibido es de tamaño 0 o no está formada por sólo 1s y 0s se devuelve un -1.
-
-Escribe después la función main que lea el string,
-lo envíe a la función y luego muestre el valor de retorno de la función en la pantalla.
-
-#### Entrada
-Un string formado por 1s y 0s.
-
-#### Salida
-Un número entero que representa la conversión del binario al formato decimal.
-Si el string recibido es de tamaño 0 o no está formada por sólo 1s y 0s se devuelve un -1.
-
-#### NOTA IMPORTANTE:
-Tu programa NO debe incluir ningún mensaje para pedir los datos y la salida debe coincidir exactamente
-con el formato y/o tipo de dato que se te pide como salida.
-
-La salida del programa debe de ser exactamente de la siguiente forma:
-
-```
-1111111
-127
-
-Hola
- -1
-
-0a
--1
-
-1010
-15
-
-```
 
 **Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 
