@@ -1,5 +1,5 @@
 ![Tec de Monterrey](images/logotecmty.png)
-# Ejercicios con funciones
+# Pensamiento Computacional para Ingeniería
 
 
 - 04 Tienda Sillas.     __corresponde a: TIENDA DE LAPTOPS
