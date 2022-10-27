@@ -1,6 +1,32 @@
+# Nombre:
+# Matricula:
+# Carrera:
+# Fecha:
+"""
+Diseña y códifica un programa en Python que haga lo siguiente: 
 
+Datos de Entrada:
+El programa ya tiene 1 matriz con la información de las Series de una plataforma (ya no tienes que ingresarla)
+- cada renglón de cada  matriz se organiza de la siguiente forma
+       Nombre ,            clase,    código,      País,  duracion_min,        fecha,     calificación
+['I Am Not an Animal', 'Animation',   '11.164',     'GB',      '349',         '10/05/04',          '9.5']
+la matriz podría tener cualquier otra información - no siempre tendra la misma,
+solo por cuestiones de tiempo se tienen esa opcion - debes programar tu solución para que
+funcione para cualquier otro contenido de la matriz no únicamente para el actual,
+de lo contrario TU SOLUCIÓN NO TENDRÁ valor, no SE TOMARA EN CUENTA (0 PTOS.).
+Salidas:
+El programa debe desplegar un listado como se muestra en el README.md del problema y en la parte inferior de este archivo,
+ con una numeración de 1 hasta n(la cantidad de renglones de la matriz)
+el programa debe tener la programación para calcular lo siguiente usando los datos de la matriz 
+       - NOTA IMPORTANTE - debes diseñar tu solución para que funcione para cualquier otro contenido de la matriz 
+         no únicamente para el actual, de lo contrario TU SOLUCIÓN NO SE TOMARÁ EN CUENTA(0 PTOS).
+    - Contar y desplegar la cantidad de series para cada clase (TIP - contar la cantidad total de la misma clase, usa listas)
+    - Calcula al momento de desplegar la frecuencia relativa = cantidad_total_misma_clase / total de elementos matriz
+    - Contar y desplegar la cantidad total de elementos de la matriz.  
+    - Calcular y desplegar el promedio de todas calificaciones
+       (TIP - usa un acumulador - inicializar antes del ciclo e i
+       
 def main():
-
     series = [['I Am Not an Animal', 'Animation', '11.164', 'GB', '349', '10/05/04', '9.5'],
     ['Chernobyl', 'Drama', '46.429', 'US', '595', '06/05/19', '8.6'],
     ['Rick and Morty', 'Animation', '132.429', 'US', '1395', '02/12/13', '8.5'],
@@ -21,12 +47,48 @@ def main():
     ['Young Justice', 'Animation', '30.096', 'US', '121', '26/11/10', '8.3'],
     ['Band of Brothers', 'Drama', '19.555', 'GB', '1500', '09/09/01', '8.2'],
     ['Futurama', 'Animation', '40.574', 'US', '919', '28/03/99', '8.2']]
-
     
-
-
+    
+    
+    
     print("Total de series:", total)
     print("Promedio:", round(promedio, 2))
-
+    
+    
+    
 if __name__=='__main__':
     main()
+    
+    
+"""
+La salida del programa debe ser exactamente :
+```
+1 I Am Not an Animal Animation
+2 Chernobyl Drama
+3 Rick and Morty Animation
+4 Breaking Bad Drama
+5 Hunter x Hunter Animation
+6 Sherlock Crime
+7 Planet Earth II Documentary
+8 Peaky Blinders Crime
+9 Stranger Things Drama
+10 DEATH NOTE Animation
+11 Avatar: The Last Airbender Animation
+12 The Twilight Zone Drama
+13 The Wire Crime
+14 Gravity Falls Animation
+15 The Sopranos Drama
+16 Neon Genesis Evangelion Animation
+17 The Marvelous Mrs. Maisel Comedy
+18 Young Justice Animation
+19 Band of Brothers Drama
+20 Futurama Animation
+Animation 9 45.0%
+Drama 6 30.0%
+Crime 3 15.0%
+Documentary 1 5.0%
+Comedy 1 5.0%
+Total de series: 20
+Promedio: 8.38
+```
+"""
